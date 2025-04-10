@@ -27,7 +27,7 @@ export default function Menu() {
             <Link className="flex items-center gap-2" to="/">
               <p className="text-sm md:text-2xl md:ml-2 font-semibold">
                 Tworzenie <span className="text-red-500">Stron</span>{" "}
-                Internetowych
+                Internetowych Zabrze
               </p>
             </Link>
           </div>

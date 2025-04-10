@@ -70,7 +70,7 @@ function App() {
           <div className="container flex mx-auto justify-center">
             <div className="flex flex-col items-center py-28 lg:flex-row lg:w-[70%]">
               <h6 className="mb-10 text-center text-4xl font-bold leading-tight tracking-tighter lg:mb-0 lg:w-1/2 lg:pr-4 lg:text-left lg:text-5xl">
-                Strony www dla firm.
+                Strony www Zabrze.
               </h6>
               <div className="flex flex-col gap-3 items-center justify-center lg:w-1/2 lg:flex-row lg:pl-4">
                 <a

@@ -40,6 +40,7 @@ const BlogPost = () => {
                 const imageUrl = urlFor(value.asset).width(800).url(); // Generowanie URL z szerokością 800px
                 return (
                   <img
+                    loading="lazy"
                     src={imageUrl}
                     alt={value.alt || "Blog Image"}
                     className="my-4 rounded-lg"

@@ -11,7 +11,7 @@ export default function Dlaczego() {
     >
       <div className=" p-4 md:p-0 md:w-[620px]">
         <h2 className="text-center md:text-left text-3xl md:text-5xl font-semibold ">
-          Dlaczego ja?
+          Strony internetowe Zabrze - Dlaczego ja?
         </h2>
         <p className="text-lg md:text-xl font-light text-gray-800 mt-5">
           Tworzę nowoczesne i szybkie strony internetowe, które przyciągają

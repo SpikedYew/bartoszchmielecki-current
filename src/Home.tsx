@@ -34,7 +34,7 @@ function Home() {
       />
       <div id="start" className="flex flex-row ">
         <div className="w-full">
-          <div className=" h-[100vh] flex flex-col bg-gradient-to-r from-gray-200 from-0% via-white via-40%  relative md:items-center justify-center text-5xl md:text-6xl lg:text-7xl font-semibold">
+          <div className="min-h-[1000px]  flex flex-col bg-gradient-to-r from-gray-200 from-0% via-white via-40%  relative md:items-center justify-center text-5xl md:text-6xl lg:text-7xl font-semibold">
             <div className="bg-gradient-to-b from-white w-full h-40 absolute top-0"></div>
             <div className="bg-gradient-to-t from-white w-full h-40 absolute bottom-0"></div>
             <div className="min-h-[60vh] flex flex-col justify-end">

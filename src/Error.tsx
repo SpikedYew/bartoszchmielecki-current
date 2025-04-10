@@ -1,12 +1,25 @@
 import { Helmet } from "react-helmet";
+import { useEffect } from "react";
 
 export default function Error() {
+  useEffect(() => {
+    // Wymuszenie kodu 404 w przeglądarce (dla Google i botów)
+    if (typeof window !== "undefined") {
+      const notFoundResponse = new Response("", { status: 404 });
+      // @ts-ignore — ignorujemy, bo Response tu tylko dla efektu
+      window.__custom_404 = notFoundResponse;
+    }
+
+    // Ewentualnie ustawić history API, by pokazać właściwy adres
+    window.history.replaceState({}, "", "/404");
+  }, []);
   return (
     <>
       <Helmet>
         <title>404 - Strona nie znaleziona</title>
         <meta name="description" content="Strona błędu 404" />
         <meta name="robots" content="noindex" />
+        <meta http-equiv="refresh" content="0; URL=/404" />
       </Helmet>
       <body className="flex items-center justify-center h-screen bg-gray-100">
         <div className="text-center p-6 bg-white shadow-lg rounded-lg">
